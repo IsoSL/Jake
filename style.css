@@ -201,16 +201,15 @@ h2::after {
 .glitch-text {
     position: relative;
     display: inline-block;
-    color: var(--accent);
+    color: var(--primary); /* Change from var(--accent) to var(--primary) */
     font-weight: bold;
     font-size: 1.5rem;
     padding: 5px 15px;
-    background: rgba(255, 62, 108, 0.1);
+    background: rgba(0, 102, 255, 0.1); /* Change this to match primary color */
     border-radius: 10px;
-    text-shadow: 0 0 5px rgba(255, 62, 108, 0.5);
-    box-shadow: 0 0 20px rgba(255, 62, 108, 0.2);
+    text-shadow: 0 0 5px rgba(0, 102, 255, 0.5); /* Change to match primary */
+    box-shadow: 0 0 20px rgba(0, 102, 255, 0.2); /* Change to match primary */
 }
-
 .glitch-text::before, .glitch-text::after {
     content: attr(data-text);
     position: absolute;
