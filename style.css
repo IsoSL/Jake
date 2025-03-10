@@ -114,7 +114,7 @@ header {
 }
 
 .section::after {
-    content: "";
+    content: "Screenshot 2025-03-10 10.53.59 AM.png";
     position: absolute;
     top: 0;
     right: 0;
