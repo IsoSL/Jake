@@ -59,7 +59,7 @@ header {
 }
 
 .profile-pic::before {
-    content: "Screenshot 2025-03-10 10.53.59 AM.png";
+    content: "jake.png";
     position: absolute;
     top: -50%;
     left: -50%;
